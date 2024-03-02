@@ -1,12 +1,13 @@
 
 <h1>
-<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/faster-whisper-docker/master/docs/fast_icon.png" height=200px align="left"/>
+<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/deepgram-python-demo/main/docs/cat_icon.png" height=200px align="left"/>
 Deepgram Python Demo <br>
 </h1>
 
 
 このREADMEでは、Deepgram SDKを使用してマイクからの音声をリアルタイムで文字起こしするツールのセットアップとスクリプト実行方法を説明します。
-## セットアップ
+
+<h2>セットアップ</h2>
 
 Deepgramリアルタイム文字起こしツールを使用するには、まず環境をセットアップする必要があります。以下の手順に従ってください。 
 1. 新しいconda環境を作成します。
