@@ -16,33 +16,41 @@ Deepgramは音声をテキストに変えるツールで、驚くほど正確で
 Deepgramリアルタイム文字起こしツールを使用するには、まず環境をセットアップする必要があります。以下の手順に従ってください。 
 1. 新しいconda環境を作成します。
 
-```lua
+```bash
 conda create -n deepgram python=3.11
 ``` 
 2. 作成したconda環境をアクティブにします。
 
-```Copy code
+```bash
 conda activate deepgram
 ``` 
 3. 必要なパッケージをインストールします。
 
-```Copy code
+```bash
 pip install deepgram-sdk
 pip install python-dotenv
 pip install PyAudio
 ```
 
+.envファイルも作成しておきます。
+
+```bash
+DEEPGRAM_API_KEY=XXXXXXXXXXXXXX
+```
+
 これで、Deepgram SDKと必要な依存関係がセットアップされました。
-## スクリプト
+
+
+## LiveAudioTranscription
 
 このスクリプトは、マイクを入力として使用し、話されている内容から会話の洞察をリアルタイムで検出するLive API (Real-Time) Exampleです。このスクリプトを実行するには、マイクロフォンを使用するための追加のコンポーネントが正しくインストールされている必要があります。
 ### スクリプトの実行方法 
-1. 下記のスクリプトを`main.py`などのPythonファイルにコピーします。
+1. 下記のスクリプトを`demo\demo01_LiveAudioTranscription_Quickstart.py`などのPythonファイルにコピーします。
 2. コマンドラインまたはターミナルで、スクリプトが保存されているディレクトリに移動します。 
 3. 以下のコマンドを実行してスクリプトを起動します。
 
-```css
-python main.py
+```bash
+python demo\demo01_LiveAudioTranscription_Quickstart.py
 ```
 4. スクリプトが実行され、マイクからの入力がリアルタイムで文字起こしされます。録音を停止するには、コンソールでEnterキーを押します。
 ### スクリプトの説明 
