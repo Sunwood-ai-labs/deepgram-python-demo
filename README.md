@@ -1,6 +1,6 @@
 
 <h1>
-<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/deepgram-python-demo/main/docs/cat_icon.png" height=200px align="left"/>
+<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/deepgram-python-demo/main/docs/cat_icon.png" height=400px align="left"/>
 Deepgram Python Demo <br>
 </h1>
 
